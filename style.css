@@ -1,0 +1,193 @@
+/* Set default font family, background color, and text color */
+body {
+  font-family: 'Roboto-Thin';
+  background-size: cover;
+  font-family: 'Roboto-Thin';
+  background-size: cover;
+  position:relative;
+  background-color: rgb(11, 11, 11);
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('./Roboto-Thin.ttf') format('truetype');
+}
+
+.img1 {
+  height: 250px;
+  width: min-content;
+  margin-top: -15em;
+  position: fixed;
+  padding-left: 20px;
+}
+
+.img1:hover {
+  transform: scale(1.1);
+}
+
+/* Center the main heading and add margin at the top */
+#heading {
+color:rgb(247, 12, 12);
+margin-left: 20px;
+font-size: 6em;
+font-weight: bolder;
+position: fixed;
+margin-top: .2em;
+cursor: pointer;
+}
+#heading:hover{
+  transform: scale(1.05);
+
+}
+
+/* Style the form container */
+form {
+  max-width: 700px;
+  margin-left: 43em;
+  margin-top: 1em;
+  background:rgba(247, 161, 2, 0.306);
+  border-radius: 30px;
+  backdrop-filter: blur(2.7px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  padding: 15px;
+  box-shadow: 10px 10px 10px rgb(244, 2, 2);
+  position: relative;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(19, 15, 15);
+}
+
+/* Style text inputs and text areas */
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #767a7d;
+  border-radius: 5px;
+  font-size: 16px;
+  color: rgb(177, 177, 177);
+  background: rgba(187, 179, 179, 0.3);
+}
+
+input[type="email"]:focus,
+textarea:focus{
+  border: 2px solid whitesmoke;
+}
+  /* Style text inputs and text areas */
+  #subject{
+    width: 89%;
+    padding: 10px;
+    margin-bottom:-1em;
+    border: 1px solid rgba(187, 179, 179, 0.3);
+    border-radius: 5px;
+    font-size: 16px;
+    color: whitesmoke;
+    z-index: 22;
+    position: absolute;
+    background: rgba(187, 179, 179, 0.3);
+  }
+  #subject:focus{
+    border: 2px solid whitesmoke;
+  }
+
+/* Style file input */
+input[type="file"] {
+  margin-bottom: 12px;
+  color: rgb(169, 121, 121);
+  
+}
+
+/* Style form submit button */
+input[type="button"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 1px 10px rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style submit button on hover */
+input[type="button"]:hover {
+  background-color:rgba(247, 161, 2, 0.306);
+  transform: scale(1.01)
+}
+
+/* Style container for valid and invalid emails */
+#validEmails {
+  margin-top: 1px;
+}
+#invalidEmails {
+  margin-top: 1px;
+} 
+
+/* Style paragraphs within container for valid and invalid emails */
+#validEmails p,
+#invalidEmails p {
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+
+/* Style divs within container for valid and invalid emails */
+#validEmails div {
+color: whitesmoke;
+}
+
+#invalidEmails div {
+color: whitesmoke;
+}
+
+#message{
+  color:whitesmoke;
+}
+#senderEmail{
+  color:whitesmoke;
+}
+
+/* Style text inputs and text areas */
+input[type="email"]:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: whitesmoke;
+ 
+}
+#validEmails {
+  height: 150px;
+  overflow: auto;
+  color: whitesmoke;
+}
+#invalidEmails {
+  height: 150px;
+  overflow: auto;
+  color: whitesmoke;
+}
+
+h1,h2 {
+font-weight: 600;
+margin: 0.4em 0;
+z-index: 12;
+position: absolute;
+margin-top: 23em;
+margin-left:14em ;
+}
+
+h1 { font-size: 18px; }
+h2 {
+color: whitesmoke;
+font-size: 18px;
+}
+
+
