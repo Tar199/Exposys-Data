@@ -7,7 +7,7 @@ The system has been developed using HTML, CSS, and JavaScript, and it uses the E
 The project can also sort and validate email addresses from CSV files, ensuring that only valid email addresses are used.
 
 
-*******------------| Usage Instructions |----------------********
+*******------------| Usage Instructions |----------------*********
 
 --->>> To use the Mass Mail Dispatcher project, follow these steps:
 
@@ -17,7 +17,7 @@ The project can also sort and validate email addresses from CSV files, ensuring 
  4. Click on the send button to dispatch the emails.
 
 
-*******------------| Overview |----------------********
+*******------------| Overview |----------------*********
 
 * Efficient Mass Emailing: Built a web app with EmailJS for mass emails, boosting dispatch efficiency by 50% through CSV support and real-time validation.
 * Enhanced UX: Designed a responsive UI with animations, increasing user engagement by 70%.
